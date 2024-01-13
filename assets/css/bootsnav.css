@@ -106,7 +106,7 @@ nav.navbar.bootsnav .navbar-toggle {
   background-color: transparent !important;
   border: none;
   padding: 0;
-  font-size: 18px;
+  font-size: 36px;
   position: relative;
   top: 5px;
 }
@@ -693,10 +693,10 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.06em;
-    padding: 35px 15px;
+    padding: 35px 15px 10px;
     text-transform: uppercase;
   }
 
@@ -705,7 +705,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav .navbar-brand {
-    padding: 20px 15px;
+    padding: 5px 15px;
   }
 
   nav.navbar.bootsnav.sticked .navbar-brand {
