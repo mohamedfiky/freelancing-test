@@ -278,7 +278,7 @@
 
   /* Faq Contact */
   .faq-area .faq-items {
-    margin-top: 30px;
+    margin-top: 0px;
   }
 
 
@@ -1111,7 +1111,7 @@
   }
 
   .footer-bottom {
-    margin-top: 50px;
+    margin-top: 0;
   }
 
   footer .f-item h4::after {

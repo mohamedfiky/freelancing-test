@@ -1164,7 +1164,7 @@ body, .banner-area,
 
 .fiky-about .item p a{
   font-weight: bold;
-  padding: 6px;
+  padding: 4px;
 }
 
 .fiky-about .item p a:hover{
@@ -1194,6 +1194,20 @@ body, .banner-area,
 .fiky-about .fiky-questions ul li i{
   font-size: 10px;
   margin-right: 6px;
+}
+
+
+@media(max-width: 400px){
+
+  .fiky-about .item p{
+    font-size: 16px;
+  }
+  
+  .fiky-about .item p a{
+    padding: 2px;
+    font-size: 14px;
+  }
+
 }
 
 /************************/
@@ -1599,6 +1613,22 @@ body, .banner-area,
   font-weight: 900;
 }
 
+.fiky-faq h2{
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.fiky-faq p a{
+  font-weight: bold;
+  padding: 2px;
+}
+
+.fiky-faq p a:hover{
+  text-decoration: underline;
+}
+
+/***************/
+
 .appoinment h2 {
   display: inline-block;
   font-weight: 600;
@@ -1649,6 +1679,14 @@ body, .banner-area,
 .contact-form img.loader {
   float: left;
   margin-top: -5px;
+}
+
+@media(max-width: 992px){
+
+  .fiky-contact{
+    margin-top: 40px;
+  }
+
 }
 
 
@@ -1746,7 +1784,7 @@ body, .banner-area,
 
 .footer-bottom {
   background: #00081d none repeat scroll 0 0;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .footer-bottom .col-md-6 {
@@ -1776,11 +1814,10 @@ body, .banner-area,
   color: #cccccc;
   display: inline-block;
   font-weight: 500;
-  margin-left: 15px;
 }
 
 .footer-bottom-menu li a:hover {
-  color: #2154cf;
+  text-decoration: underline;
 }
 
 .f-item.business-hours li {
